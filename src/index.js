@@ -106,7 +106,7 @@ program
         let url = api_url+`/v1/images?keyword=${image}&current=1&pageSize=20`;
         request(url, function (error, response, result) {
             if (!error && response.statusCode == 200) {
-                console.log(JSON.parse(result).data.list)
+                // console.log(JSON.parse(result).data.list)
                 return_result(JSON.parse(result).data.list)
                 process.exit(1);
             }
