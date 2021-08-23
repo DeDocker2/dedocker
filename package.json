@@ -1,0 +1,28 @@
+{
+  "name": "dedocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeDocker2/dedocker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "commander": "^8.1.0",
+    "exec-sh": "^0.4.0",
+    "node-fetch": "^2.6.1",
+    "progress-stream": "^2.0.0",
+    "request": "^2.88.2",
+    "single-line-log": "^1.1.2",
+    "superagent": "^6.1.0"
+  },
+  "bin": {
+    "dedocker": "src/index.js"
+  }
+}
